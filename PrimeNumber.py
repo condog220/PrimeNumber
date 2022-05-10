@@ -4,7 +4,7 @@ for number in range(0, 99):
     if number >= 2:
         # Our divisor; will go through the loop and MOD number by i
         for i in range(2, number):
-            if number % 2 == 0:
+            if number % i == 0:
                 # If any manage to be divisable with no remainder, number is not prime. Break
                 break
         else:
