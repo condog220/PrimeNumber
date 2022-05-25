@@ -1,5 +1,5 @@
 # Range from 1-100
-for number in range(0, 99):
+for number in range(1, 101):
     # Prime number is always divisable by itself, therefore check it is greater than or equal to 2.
     if number >= 2:
         # Our divisor; will go through the loop and MOD number by i
